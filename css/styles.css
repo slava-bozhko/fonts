@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Playfair+Display&display=swap');
+*{
+    box-sizing: border-box;
+}
+a, button{
+    transition: all .3s ease-in-out;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background-color: #fefefe;
+    color: #171717;
+    padding: 130px 100px 130px 100px;
+}
+.container{
+    background-color: #fff;
+    max-width: 1140px;
+    margin: 0 auto;    
+}
+.baner__text{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 4.2rem;
+}
+.article__text{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.9;
+}
+.article__latter::first-letter{
+    content: "";
+    display: block;
+    float: left;
+    font-size: 11rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-top: -60px;
+    margin-bottom: -60px;
+    padding-right: 35px;
+}
+.article__ps{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    vertical-align: middle;
+}
+.article__ps::before{
+    content: "“";
+    font-size: 60px;
+    vertical-align: middle;
+    padding: 0 20px 0 10px;
+}
+.btn{
+    outline: 2px solid #eaa258;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    color: #eaa258;
+    text-transform: uppercase;
+    text-align: center;
+    width: 265px;
+    height: 70px;
+    transition: all .3s ease-in-out;
+}
+.btn__center{
+    display: inline-block;
+    margin: 25px auto;
+    vertical-align: middle;
+}
+.btn:hover,
+.btn:focus {
+    cursor: pointer;
+    background-color: #eaa258;
+    outline: 2px solid #fff;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    transition: box-shadow .3s ease-in-out 0.1s;
+}
+.btn:active {
+    background-color: #171717;
+    outline: 2px solid #fff;
+    cursor: pointer;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+    transition: all .3s ease-in-out 0.1s;
+}
